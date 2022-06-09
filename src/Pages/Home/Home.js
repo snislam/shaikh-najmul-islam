@@ -1,10 +1,16 @@
 import React from 'react';
-import Navbar from '../../shared/Navbar';
+import PageTitle from '../../shared/PageTitle';
+import About from './About';
+import HeroBanner from './HeroBanner';
+import Projects from './Projects';
 
 const Home = () => {
     return (
         <>
-            <Navbar />
+            <PageTitle title="Home" />
+            <HeroBanner />
+            <About />
+            <Projects />
         </>
     );
 };
