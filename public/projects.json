@@ -2,16 +2,19 @@
     {
         "_id": 101,
         "name": "Auto Parts - warehouse management website",
-        "live link": "https://autoparts-96b08.web.app/"
+        "live link": "https://autoparts-96b08.web.app/",
+        "img": "https://i.ibb.co/Hr4NLJr/auto-parts.png"
     },
     {
         "_id": 102,
         "name": "Bike Park - Manufacturar website",
-        "live link": "https://bike-park-8a78c.web.app/"
+        "live link": "https://bike-park-8a78c.web.app/",
+        "img": "https://i.ibb.co/SR5dMhC/bike-park.png"
     },
     {
         "_id": 103,
         "name": "Carrer Hunter - Personal Website",
-        "live link": "https://career-hunter-6eb88.web.app/"
+        "live link": "https://career-hunter-6eb88.web.app/",
+        "img": "https://i.ibb.co/xXGfVF3/career-hunter.png"
     }
 ]

@@ -1,12 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import najmul from '../../media/react_js_developer.png'
 
 const About = () => {
     return (
         <section id='about' className='flex flex-col md:flex-row justify-between items-center px-12 py-20 container mx-auto'>
             <div className='flex-1 w-3/4 md:mb-0 mb-5'>
-                <img className='rounded-3xl border-2 shadow-lg' src={najmul} alt="najmul_about" />
+                <h2 className='text-2xl font-bold my-2'>Technologies and Skills</h2>
+                <div>
+                    <h3 className='text-lg font-bold my-2'>Expertise</h3>
+                    <p>React Js, React Router, React form, Axios, React Query, Javascript, Tailwind css, Bootstrap, Css3, Html5</p>
+                </div>
+                <div>
+                    <h3 className='text-lg font-bold my-2'>Comfortable</h3>
+                    <p>Node Js, Express Js, MongoDb</p>
+                </div>
+                <div>
+                    <h3 className='text-lg font-bold my-2'>Tools</h3>
+                    <p>VScode, Git, Github, Figma, Firebase, Netlify , Chrome Dev Tools</p>
+                </div>
             </div>
             <div className='flex-1 ml-10'>
                 <small className='text-lg text-indigo-700 font-semibold'>I am a developer</small>
