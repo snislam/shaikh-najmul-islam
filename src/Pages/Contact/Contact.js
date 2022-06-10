@@ -1,6 +1,7 @@
 import { InboxIcon, PhoneIcon, UserAddIcon } from '@heroicons/react/solid';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com'
+import PageTitle from '../../shared/PageTitle';
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -37,6 +38,7 @@ const Contact = () => {
     return (
         <div id="contact" className='bg-blue-900 container mx-auto my-12 px-12 rounded-md shadow-md py-12 grid grid-cols-1 md:grid-cols-2 gap-8 justify-between items-center'>
             <div>
+                <PageTitle title="Contact me" />
                 <h2 className='text-3xl font-semibold text-white mb-3'>Feel Free To Contact</h2>
                 <form onSubmit={handleSubmit}>
                     <input onChange={e => setName(e.target.value)} className='w-full my-3 p-3' name='name' value={name} type="text" placeholder="Your Name" />

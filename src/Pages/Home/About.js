@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PageTitle from '../../shared/PageTitle';
 
 const About = () => {
     return (
         <section id='about' className='flex flex-col-reverse md:flex-row justify-between items-center px-12 py-20 container mx-auto'>
+            <PageTitle title="About me" />
             <div className='flex-1 md:w-3/4 md:mb-0 mt-6 md:mt-0 mb-5'>
                 <h2 className='text-2xl font-bold my-2'>Technologies and Skills</h2>
                 <div>
