@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
-        <section id='about' className='flex flex-col md:flex-row justify-between items-center px-12 py-20 container mx-auto'>
-            <div className='flex-1 w-3/4 md:mb-0 mb-5'>
+        <section id='about' className='flex flex-col-reverse md:flex-row justify-between items-center px-12 py-20 container mx-auto'>
+            <div className='flex-1 md:w-3/4 md:mb-0 mt-6 md:mt-0 mb-5'>
                 <h2 className='text-2xl font-bold my-2'>Technologies and Skills</h2>
                 <div>
                     <h3 className='text-lg font-bold my-2'>Expertise</h3>
@@ -19,7 +19,7 @@ const About = () => {
                     <p>VScode, Git, Github, Figma, Firebase, Netlify , Chrome Dev Tools</p>
                 </div>
             </div>
-            <div className='flex-1 ml-10'>
+            <div className='flex-1 ml-0 nd:ml-10'>
                 <small className='text-lg text-indigo-700 font-semibold'>I am a developer</small>
                 <h2 className='text-2xl font-bold my-2'>About Me</h2>
                 <p className='my-2'>Hi, I am a React Js based front-end developer with a little bit of back-end technologies like Node.js, Express.js, MongoDB etc.I am from Gopalganj bangladesh and now I am studying at BSMRSTU. I am passionate to play with web technologies and making awesome user experience.</p>

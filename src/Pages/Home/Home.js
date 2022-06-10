@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTitle from '../../shared/PageTitle';
+import Contact from '../Contact/Contact';
 import About from './About';
 import FeaturedCard from './FeaturedCard';
 import HeroBanner from './HeroBanner';
@@ -15,6 +16,7 @@ const Home = () => {
             <About />
             <Projects />
             <MyServices />
+            <Contact />
         </>
     );
 };

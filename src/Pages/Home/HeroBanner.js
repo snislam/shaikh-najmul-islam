@@ -12,7 +12,7 @@ const HeroBanner = () => {
                 <p className='mb-5'>I am react js developer working for developing versatile website. I also use Express JS, MongoDB for making full-stack website. I have also some projects. You can check it out.</p>
                 <button className='btn bg-[#FA4616] hover:bg-[#df3400] duration-500 px-5 py-2 font-bold text-white rounded-3xl'><Link to="/contact" >Contact Me</Link></button>
             </div>
-            <div className='flex-1 my-3'>
+            <div className='flex-1 my-3 hidden md:block'>
                 <img src={najmulIslam} alt="" />
             </div>
         </div>
