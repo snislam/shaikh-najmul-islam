@@ -1,5 +1,6 @@
 import { InboxIcon, PhoneIcon, UserAddIcon } from '@heroicons/react/solid';
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -9,11 +10,28 @@ const Contact = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log(name, email, message);
-        setName('');
-        setEmail('');
-        setMessage('');
-        setIsSend(true)
+
+        if (name && email && message) {
+            const serviceId = 'service_ar6wv0u';
+            const templateId = 'template_nngu5ks';
+            const userId = 'iUkHEtvWcuCvMG5LO';
+            const templateParams = {
+                name,
+                email,
+                message
+            };
+
+            emailjs.send(serviceId, templateId, templateParams, userId)
+                .then(response => console.log(response))
+                .then(error => console.log(error));
+
+            setName('');
+            setEmail('');
+            setMessage('');
+            setIsSend(true);
+        } else {
+            alert('Please fill in all fields.');
+        }
     }
 
     return (
@@ -57,6 +75,6 @@ const Contact = () => {
             </div>
         </div>
     );
-};
+}
 
 export default Contact;
