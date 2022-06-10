@@ -35,7 +35,7 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact-form" className='bg-blue-900 container mx-auto my-12 px-12 rounded-md shadow-md py-12 grid grid-cols-1 md:grid-cols-2 gap-8 justify-between items-center'>
+        <div id="contact" className='bg-blue-900 container mx-auto my-12 px-12 rounded-md shadow-md py-12 grid grid-cols-1 md:grid-cols-2 gap-8 justify-between items-center'>
             <div>
                 <h2 className='text-3xl font-semibold text-white mb-3'>Feel Free To Contact</h2>
                 <form onSubmit={handleSubmit}>

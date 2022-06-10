@@ -2,19 +2,49 @@
     {
         "_id": 101,
         "name": "Auto Parts - warehouse management website",
-        "live link": "https://autoparts-96b08.web.app/",
-        "img": "https://i.ibb.co/Hr4NLJr/auto-parts.png"
+        "img": "https://i.ibb.co/Hr4NLJr/auto-parts.png",
+        "live_link": "https://autoparts-96b08.web.app/",
+        "client_site": "https://github.com/snislam/autoparts",
+        "server_site": "https://github.com/snislam/autoparts-server",
+        "features": [
+            "React base single page application",
+            "Firebase Authentication system",
+            "Error handleing system",
+            "Order management system",
+            "Admin and user different role",
+            "Complete funtional"
+        ]
     },
     {
         "_id": 102,
         "name": "Bike Park - Manufacturar website",
-        "live link": "https://bike-park-8a78c.web.app/",
-        "img": "https://i.ibb.co/SR5dMhC/bike-park.png"
+        "img": "https://i.ibb.co/SR5dMhC/bike-park.png",
+        "live_link": "https://bike-park-8a78c.web.app/",
+        "client_site": "https://github.com/snislam/bikepark-client-side",
+        "server_site": "https://github.com/snislam/bikepark-server-side",
+        "features": [
+            "All the sensetive routes are protected by authentication",
+            "No fakeDB are used. All data are msnsged snd store in MongoDB",
+            "Secured (Firebase authentication system applied)",
+            "JsonWebToken (JWT) is used for protecting unwanted data access by stranger",
+            "Easy process to update, add or delete data ont only from the UI but also from the database",
+            "Also added featured product section (Manually add by admin)",
+            "Anyone can handle easily"
+        ]
     },
     {
         "_id": 103,
         "name": "Carrer Hunter - Personal Website",
-        "live link": "https://career-hunter-6eb88.web.app/",
-        "img": "https://i.ibb.co/xXGfVF3/career-hunter.png"
+        "img": "https://i.ibb.co/xXGfVF3/career-hunter.png",
+        "live_link": "https://career-hunter-6eb88.web.app/",
+        "client_site": "https://github.com/snislam/career-hunter",
+        "features": [
+            "Using react component which is easy to handle",
+            "React router make the site url path unique and readable",
+            "Containing different services",
+            "About section clearly clarify about the coach",
+            "All over the site is dynamic",
+            "Home page is responsive"
+        ]
     }
 ]
