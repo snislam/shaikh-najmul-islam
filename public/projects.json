@@ -1,8 +1,21 @@
 [
     {
-        "_id": 101,
         "name": "Auto Parts - warehouse management website",
         "img": "https://i.ibb.co/Hr4NLJr/auto-parts.png",
+        "images": [
+            "https://i.ibb.co/HtJ4M19/autoparts-1.png",
+            "https://i.ibb.co/0CcKXCb/autoparts-2.png",
+            "https://i.ibb.co/8z0bVTM/autoparts-3.png"
+        ],
+        "technologies": [
+            "react js",
+            "react-router",
+            "firebase",
+            "JWT",
+            "express js",
+            "mongodb",
+            "react-query"
+        ],
         "live_link": "https://autoparts-96b08.web.app/",
         "client_site": "https://github.com/snislam/autoparts",
         "server_site": "https://github.com/snislam/autoparts-server",
@@ -16,9 +29,21 @@
         ]
     },
     {
-        "_id": 102,
         "name": "Bike Park - Manufacturar website",
         "img": "https://i.ibb.co/SR5dMhC/bike-park.png",
+        "images": [
+            "https://i.ibb.co/pxy07qP/bike-park-1.png",
+            "https://i.ibb.co/DR7HQms/bike-park-2.png",
+            "https://i.ibb.co/1bpgsqs/bike-park-3.png"
+        ],
+        "technologies": [
+            "react js",
+            "react-router",
+            "firebase",
+            "JWT",
+            "express js",
+            "mongodb"
+        ],
         "live_link": "https://bike-park-8a78c.web.app/",
         "client_site": "https://github.com/snislam/bikepark-client-side",
         "server_site": "https://github.com/snislam/bikepark-server-side",
@@ -33,8 +58,17 @@
         ]
     },
     {
-        "_id": 103,
         "name": "Carrer Hunter - Personal Website",
+        "images": [
+            "https://i.ibb.co/hWH6s8N/career-hunter-1.png",
+            "https://i.ibb.co/RQVSWSm/career-hunter-2.png",
+            "https://i.ibb.co/gdR7QGM/career-hunter-3.png"
+        ],
+        "technologies": [
+            "react js",
+            "react-router",
+            "firebase"
+        ],
         "img": "https://i.ibb.co/xXGfVF3/career-hunter.png",
         "live_link": "https://career-hunter-6eb88.web.app/",
         "client_site": "https://github.com/snislam/career-hunter",
