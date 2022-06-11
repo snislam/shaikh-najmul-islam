@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MenuIcon, XIcon } from '@heroicons/react/solid';
-import resume from '../media/shaikh_najmul_islam_jr_react_developer_june07.pdf'
+import resume from '../media/react_js_developer.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)

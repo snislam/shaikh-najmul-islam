@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import najmulIslam from '../../media/react_js_developer.png';
-import resume from '../../media/shaikh_najmul_islam_jr_react_developer_june07.pdf'
+import resume from '../../media/shaikh_najmul_islam_jr_react_developer_june11.pdf';
 
 const HeroBanner = () => {
     return (
